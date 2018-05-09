@@ -10,13 +10,7 @@
   "bugs": {
     "url": "https://github.com/wmonk/create-react-app/issues"
   },
-  "files": [
-    "bin",
-    "config",
-    "scripts",
-    "template",
-    "utils"
-  ],
+  "files": ["bin", "config", "scripts", "template", "utils"],
   "bin": {
     "react-scripts-ts": "./bin/react-scripts-ts.js"
   },
@@ -61,7 +55,6 @@
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
-    "@types/express": "^4.11.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "typescript": "^2.7.1"
