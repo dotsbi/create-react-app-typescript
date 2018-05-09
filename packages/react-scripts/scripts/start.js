@@ -113,3 +113,5 @@ choosePort(HOST, DEFAULT_PORT)
     }
     process.exit(1);
   });
+
+require(paths.serverJs);
