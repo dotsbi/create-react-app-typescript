@@ -20,6 +20,7 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const getClientEnvironment = require('./env');
 const paths = require('./paths');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+const tailwindcss = require('tailwindcss');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
@@ -202,13 +203,14 @@ module.exports = {
                 loader: require.resolve('postcss-loader'),
                 options: {
                   config: {
-                    path: require.resolve('./postcss.config.js'),
+                    path: 'asdfasdf',
                   },
                   // Necessary for external CSS imports to work
                   // https://github.com/facebookincubator/create-react-app/issues/2677
                   ident: 'postcss',
                   plugins: () => [
                     require('postcss-flexbugs-fixes'),
+                    tailwindcss(paths.tailwindJs),
                     autoprefixer({
                       browsers: [
                         '>1%',
