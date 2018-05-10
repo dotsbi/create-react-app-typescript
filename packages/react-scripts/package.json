@@ -1,14 +1,14 @@
 {
   "name": "dotsbi-react-scripts-ts",
-  "version": "2.15.23",
+  "version": "2.15.24",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "wmonk/create-react-app",
+  "repository": "dotsbi/create-react-app-typescript",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/wmonk/create-react-app/issues"
+    "url": "https://github.com/dotsbi/create-react-app-typescript/issues"
   },
   "files": [
     "bin",
