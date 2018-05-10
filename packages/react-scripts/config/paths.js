@@ -62,6 +62,7 @@ module.exports = {
   appTsLint: resolveApp('tslint.json'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
+  tailwindJs: resolveApp('tailwind.js'),
 };
 
 // @remove-on-eject-begin

@@ -201,6 +201,9 @@ module.exports = {
               {
                 loader: require.resolve('postcss-loader'),
                 options: {
+                  config: {
+                    path: require.resolve('./postcss.config.js'),
+                  },
                   // Necessary for external CSS imports to work
                   // https://github.com/facebookincubator/create-react-app/issues/2677
                   ident: 'postcss',
