@@ -18,8 +18,6 @@ process.on('unhandledRejection', err => {
   throw err;
 });
 
-require('ts-node').register();
-
 // Ensure environment variables are read.
 require('../config/env');
 
@@ -113,5 +111,3 @@ choosePort(HOST, FRONTEND_PORT)
     }
     process.exit(1);
   });
-
-require(paths.serverJs);
