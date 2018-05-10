@@ -13,5 +13,5 @@ app.get('*', (req, res) => {
 const port = process.env.SERVER_PORT || 3001;
 const server = app.listen(port, () => {
   server.keepAliveTimeout = 0;
-  console.log(`Server listening on ${port}`);
+  // console.log(`Server listening on ${port}`);
 });
