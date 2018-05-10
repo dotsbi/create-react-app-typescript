@@ -1,5 +1,5 @@
 import * as React from 'react';
-import history from '../../history';
+import history from '../../utils/history';
 
 const Link = (props: any) => {
   const onClick = (e: MouseEvent) => {
