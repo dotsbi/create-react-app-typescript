@@ -8,6 +8,7 @@ Please refer to its documentation:
 * [Tailwind](https://tailwindcss.com/)
 
 ## Run this to create a template app
+
 ```
 npm install -g create-react-app
 create-react-app <my-new-app> --scripts-version dotsbi-react-scripts-ts
