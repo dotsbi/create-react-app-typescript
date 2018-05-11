@@ -1,0 +1,7 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+.AboutPage {
+  @apply text-2xl .font-medium;
+}

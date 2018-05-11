@@ -24,7 +24,7 @@ const getHandler = (pathname: string) => {
   }
 };
 
-class App extends React.Component<IAppProps, IAppState> {
+export class App extends React.Component<IAppProps, IAppState> {
   constructor(props: IAppProps) {
     super(props);
     this.state = {
